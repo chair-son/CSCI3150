@@ -1,0 +1,51 @@
+h1, h2 {
+    color: green;
+  }
+  
+  p {
+    color: gray;
+  }
+  
+  ul {
+    border: 2px solid #7ddfff;
+  }
+  
+  ol {
+    border: 2px solid #7ddfff;
+  }
+  
+  ol, ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+    color:navajowhite
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #7ddfff;
+  }
+  
+  dl {
+    color: gray;
+    margin: 0.5em 0;
+  }
+  
+  dt {
+    font-weight: bold;
+    color: pink;
+  }
+      
+  p {
+    color: gray;
+  }
+  
+  strong {
+    color: orange;
+    font-size: 1.5rem
+  }
+  
+  em {
+    color: gray;
+  }
+      
