@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+body {
+	background-color: #FFFFF0;
+}
+
+h1 {
+	font-family:"poppins", sans-serif;
+}
+
+div {
+	font-family:"rufina", serif;
+}
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+	line-height: 1.5em;
+}
+
+#formcol1 label {
+	margin-right: .3em;
+	width: 6.3em; /* I made this deliberately wide – come up with your own
+	optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as
+	“label”. Therefore we need to set it to “inline-block” */
+	text-align: right;
+}
+
+	/* we place the id formcol1 in front of the li element in order to limit this
+	formatting to the top part of the form */
+#formcol1 li {
+	list-style:none;
+}
+
+#multchoice label {
+	/* margin-right: .3em; */
+	min-width: 5em; /* I made this deliberately wide – come up with your own
+	optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as
+	“label”. Therefore we need to set it to “inline-block” */
+}
+
+span#ast{
+	color:red;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active {
+color: #000 !important;
+background-color: #ffcfa4 !important;}
+
+/* #formcol1 input.reqfield {
+	background:#FF9;
+} */
+
+/* end of form css */
+	
