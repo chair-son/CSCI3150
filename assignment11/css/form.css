@@ -58,9 +58,9 @@ input:active + label, label[for]:focus, label[for]:active {
 color: #000 !important;
 background-color: #ffcfa4 !important;}
 
-/* #formcol1 input.reqfield {
-	background:#FF9;
-} */
+#formcol1 input.reqfield {
+	background:#FFFFCC;
+}
 
 /* end of form css */
 	
